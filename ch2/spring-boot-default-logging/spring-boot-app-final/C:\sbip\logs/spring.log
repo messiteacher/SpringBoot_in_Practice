@@ -1,0 +1,3 @@
+2024-01-16T00:44:25.415+09:00  INFO 14353 --- [main] c.m.sbip.ch02.CourseTrackerApplication   : Starting CourseTrackerApplication using Java 17.0.5 with PID 14353 (/Users/shinyounho/Desktop/spring/chap2/spring-boot-default-logging/spring-boot-app-final/target/classes started by shinyounho in /Users/shinyounho/Desktop/spring/chap2/spring-boot-default-logging/spring-boot-app-final)
+2024-01-16T00:44:25.416+09:00  INFO 14353 --- [main] c.m.sbip.ch02.CourseTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-01-16T00:44:25.615+09:00  INFO 14353 --- [main] c.m.sbip.ch02.CourseTrackerApplication   : Started CourseTrackerApplication in 0.378 seconds (process running for 0.595)

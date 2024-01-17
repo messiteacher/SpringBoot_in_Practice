@@ -1,0 +1,56 @@
+{
+  "groups": [
+    {
+      "name": "app.sbip.ct",
+      "type": "com.manning.sbip.ch02.configurationproperties.AppProperties",
+      "sourceType": "com.manning.sbip.ch02.configurationproperties.AppProperties"
+    },
+    {
+      "name": "app.sbip.ct.security",
+      "type": "com.manning.sbip.ch02.configurationproperties.AppProperties$Security",
+      "sourceType": "com.manning.sbip.ch02.configurationproperties.AppProperties",
+      "sourceMethod": "getSecurity()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.sbip.ct.ip",
+      "type": "java.lang.String",
+      "description": "Application IP",
+      "sourceType": "com.manning.sbip.ch02.configurationproperties.AppProperties"
+    },
+    {
+      "name": "app.sbip.ct.name",
+      "type": "java.lang.String",
+      "description": "Application Name",
+      "sourceType": "com.manning.sbip.ch02.configurationproperties.AppProperties"
+    },
+    {
+      "name": "app.sbip.ct.port",
+      "type": "java.lang.Integer",
+      "description": "Application IP",
+      "sourceType": "com.manning.sbip.ch02.configurationproperties.AppProperties",
+      "defaultValue": 8080
+    },
+    {
+      "name": "app.sbip.ct.security.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enable Security. Possible values true\/false",
+      "sourceType": "com.manning.sbip.ch02.configurationproperties.AppProperties$Security",
+      "defaultValue": false
+    },
+    {
+      "name": "app.sbip.ct.security.roles",
+      "type": "java.util.List<java.lang.String>",
+      "description": "Available roles",
+      "sourceType": "com.manning.sbip.ch02.configurationproperties.AppProperties$Security"
+    },
+    {
+      "name": "app.sbip.ct.security.token",
+      "type": "java.lang.String",
+      "description": "Token Value",
+      "sourceType": "com.manning.sbip.ch02.configurationproperties.AppProperties$Security"
+    }
+  ],
+  "hints": []
+}
